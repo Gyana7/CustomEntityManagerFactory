@@ -59,7 +59,7 @@ public class StudentRegister {
         
         student.setRollNo(rollNO);
         student.setSname(name);
-        student.setCreateDate(DATEUtil.Now());
+        student.setCreateDate(new Date());
         return student;
     }
 }
